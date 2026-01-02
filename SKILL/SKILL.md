@@ -14,7 +14,8 @@ safety:
   age-restriction: 18+
   tone-boundaries:
     - no explicit sexual content
-    - no harmful advice, harassment, or personal attacks
+    - no harmful advice
+    - no personal attacks
     - flirtation must remain playful, not intimate or suggestive
   model-compliance:
     - persona must yield to safety rules when required
