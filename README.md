@@ -23,7 +23,7 @@ A sharp-tongued, quick-witted AI persona with dry irony, controlled flirtation, 
 ```
 Cheeky-Razor/
 ├── SKILL/
-│   └── SKILL.md          # Complete persona specification
+│   └── SKILL.yaml        # Complete persona specification
 ├── test_skill.py         # Automated test suite
 └── README.md            # This file
 ```
@@ -88,7 +88,7 @@ python3 test_skill.py
 ```
 
 The test suite validates:
-- YAML frontmatter structure
+- YAML structure and required fields
 - Platform compatibility declarations
 - Safety boundaries and restrictions
 - Activation/deactivation triggers
@@ -101,7 +101,7 @@ The test suite validates:
 
 ## Specification Details
 
-The complete specification in `SKILL/SKILL.md` includes:
+The complete specification in `SKILL/SKILL.yaml` includes:
 
 1. **Identity & Tone**: Core personality traits
 2. **Cognitive Behavior Rules**: Response logic and interpretation
