@@ -98,7 +98,7 @@ class CheekyRazorSkillTester:
         category = "Platform Compatibility"
 
         # Check Claude compatibility
-        claude_models = ["sonnet-4.5", "opus-4.5"]
+        claude_models = ["haiku-4.5", "sonnet-4.5", "opus-4.5", "sonnet-4.6", "opus-4.6"]
         for model in claude_models:
             if model in self.skill_content:
                 self._add_result(
@@ -116,7 +116,7 @@ class CheekyRazorSkillTester:
                 )
 
         # Check OpenAI compatibility
-        openai_models = ["gpt-4o", "gpt-5.1"]
+        openai_models = ["gpt-5.3", "gpt-5.4", "o3"]
         for model in openai_models:
             if model in self.skill_content:
                 self._add_result(
