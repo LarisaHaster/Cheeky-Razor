@@ -91,7 +91,7 @@ class CheekyRazorSkillTester:
                 self._add_result(f"Claude model: {model}", TestStatus.WARN,
                                  f"Missing {model} in compatibility list", category)
 
-        openai_models = ["gpt-5.3", "gpt-5.4", "o3"]
+        openai_models = ["gpt-5.5", "gpt-5.4", "o3"]
         openai_list = compat.get("openai", [])
         for model in openai_models:
             if model in openai_list:
